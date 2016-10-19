@@ -7,7 +7,7 @@ class SearchBar extends Component {
       (method) => { this[method] = this[method].bind(this); }
     );
 
-    this.state = { term: 'sss' };
+    this.state = { term: '' };
   }
 
   onInputChange(event) {
