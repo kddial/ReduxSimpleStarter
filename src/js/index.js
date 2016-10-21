@@ -1,3 +1,5 @@
+require('../scss/main.scss');
+
 import _ from 'lodash';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
@@ -27,7 +29,7 @@ class App extends Component {
     });
   }
 
-  render() {
+  render() {  
     const videoSearch = _.debounce((term) => { this.videoSearch(term) }, 300);
     return (
       <div>

@@ -1,6 +1,6 @@
 module.exports = {
   entry: [
-    './src/index.js'
+    './src/js/index.js'
   ],
   output: {
     path: './resources/js',
